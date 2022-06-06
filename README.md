@@ -16,16 +16,17 @@ Each item is tagged as non-SATD or different types of SATD.
 ```
 ├── LICENSE
 ├── README.md
-├── SATD Keyowrds for different types of SATD
-│   ├── Keywords for code or design debt.txt
-│   ├── Keywords for documentation debt.txt
-│   ├── Keywords for requirement debt.txt
-│   └── Keywords for test debt.txt
-├── SATD Keywords for different sources
-│   ├── Keywords for code comments.txt
-│   ├── Keywords for commit messages.txt
-│   ├── Keywords for issues.txt
-│   └── Keywords for pull requests.txt
+├── SATD Keyowrds
+│   ├── SATD Keyowrds for different types of SATD
+│   │   ├── Keywords for code or design debt.txt
+│   │   ├── Keywords for documentation debt.txt
+│   │   ├── Keywords for requirement debt.txt
+│   │   └── Keywords for test debt.txt
+│   └── SATD Keywords for different sources
+│       ├── Keywords for code comments.txt
+│       ├── Keywords for commit messages.txt
+│       ├── Keywords for issues.txt
+│       └── Keywords for pull requests.txt
 ├── satd-dataset-code_comments.csv
 ├── satd-dataset-commit_messages.csv
 ├── satd-dataset-issues.csv
