@@ -3,13 +3,13 @@
 ##### Authors: Yikun Li, Mohamed Soliman, Paris Avgeriou
 
 
-## Description of this study:
+## Description of This Study
 
 Technical debt refers to taking shortcuts to achieve short-term goals while sacrificing the long-term maintainability and evolvability of software systems. A large part of technical debt is explicitly reported by the developers themselves; this is commonly referred to as Self-Admitted Technical Debt or SATD. Previous work has focused on identifying SATD from source code comments and issue trackers. However, there are no approaches available for automatically identifying SATD from other sources such as commit messages and pull requests, or by combining multiple sources. Therefore, we propose and evaluate an approach for automated SATD identification that integrates four sources: source code comments, commit messages, pull requests, and issue tracking systems. 
 Our findings show that our approach outperforms baseline approaches and achieves an average F1-score of 0.611 when detecting four types of SATD (i.e., code/design debt, requirement debt, documentation debt, and test debt) from the four aforementioned sources. Thereafter, we analyze 23.6M code comments, 1.3M commit messages, 3.7M issue sections, and 1.7M pull request sections to characterize SATD in 103 open-source projects. Furthermore, we investigate the SATD keywords and relations between SATD in different sources. The findings indicate, among others, that: 1) SATD is evenly spread among all sources; 2) issues and pull requests are the two most similar sources regarding the number of shared SATD keywords, followed by commit messages, and then followed by code comments; 3) there are four kinds of relations between SATD items in the different sources.
 
 
-## Structure of the replication package:
+## Structure of the Replication Package
 
 We have assembled a replication package that includes a comprehensive SATD dataset, comprised of 5,000 commit messages and 5,000 pull request sections gathered from 103 Apache open-source projects. Each entry is labeled as either non-SATD or with a specific type of SATD. Additionally, the package contains the trained SATD detector model to facilitate further research and analysis.
 
