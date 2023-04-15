@@ -41,9 +41,9 @@ We have assembled a replication package that includes a comprehensive SATD datas
 
 ### Requirements
 
-- fasttext==0.9.2
-- nltk==3.7
-- torch==1.11.0
+- fasttext
+- nltk
+- torch
 
 
 ### Identifying SATD
