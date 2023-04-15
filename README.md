@@ -127,15 +127,17 @@ Latest version available on [arXiv](https://arxiv.org/abs/2202.02387)
 If you use this dataset to support your research and publish a paper, we encourage you to cite the following paper in your publication:
 
 ```
-@misc{https://doi.org/10.48550/arxiv.2202.02387,
-  doi = {10.48550/ARXIV.2202.02387},
-  url = {https://arxiv.org/abs/2202.02387},
+@article{li2023automatic,
   author = {Li, Yikun and Soliman, Mohamed and Avgeriou, Paris},
-  keywords = {Software Engineering (cs.SE), Artificial Intelligence (cs.AI), FOS: Computer and information sciences, FOS: Computer and information sciences},
-  title = {Automatic Identification of Self-Admitted Technical Debt from Four Different Sources},
-  publisher = {arXiv},
-  year = {2022},
-  copyright = {arXiv.org perpetual, non-exclusive license}
+  title = {Automatic identification of self-admitted technical debt from four different sources},
+  journal = {Empirical Software Engineering},
+  year = 2023,
+  month = {Apr},
+  day = 15,
+  volume = 28,
+  number = 65,
+  issn = {1573-7616},
+  doi = {10.1007/s10664-023-10297-9},
 }
 ```
 
