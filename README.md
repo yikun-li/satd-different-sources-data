@@ -11,7 +11,7 @@ Our findings show that our approach outperforms baseline approaches and achieves
 
 ## Structure of the Replication Package
 
-We have assembled a replication package that includes a comprehensive SATD dataset, comprised of 5,000 commit messages and 5,000 pull request sections gathered from 103 Apache open-source projects. Each entry is labeled as either non-SATD or with a specific type of SATD. Additionally, the package contains the trained SATD detector model to facilitate further research and analysis.
+We have assembled a replication package that includes a **comprehensive SATD dataset**, comprised of 5,000 commit messages and 5,000 pull request sections gathered from 103 Apache open-source projects. Each entry is labeled as either non-SATD or with a specific type of SATD. Additionally, the package contains the **trained SATD detector** model to facilitate further research and analysis.
 
 ```
 ├── LICENSE
